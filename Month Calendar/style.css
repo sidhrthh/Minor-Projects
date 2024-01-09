@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #7077A1;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    margin-top: 30px;
+    background-color: black;
+    color: lightgray;
+    width: 450px;
+    height: 530px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .4) ;
+    border-radius: 10px;
+}
+.month{
+    width: 100%;
+    height: 120px;
+    background-color: #2D3250;
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+}
+.weekdays{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.weekdays div{
+    font-weight: bold;
+}
+.days{
+width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+.days div{
+    font-size: 14px;
+    margin: 3px;
+    display: flex;
+    width: 57.5px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.days div:hover:not(.empty) {
+    cursor: pointer;
+    border: 2px solid gray;
+}
+.today{
+    background-color: #7077A1;
+}
