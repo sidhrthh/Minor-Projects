@@ -3,7 +3,7 @@ Welcome to the root repository for multiple projects! This repository contains s
 
 
 ## Projects 
-### Drum Kit Project
+### Age Calculation
 Users to calculate their age based on the date of birth provided.
 
 Demo : https://birthagecalculator.netlify.app/
